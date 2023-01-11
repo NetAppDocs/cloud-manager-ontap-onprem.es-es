@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: reference-limitations.html 
+keywords: limitations, system manager, unsupported features 
+summary: Las limitaciones conocidas identifican plataformas, dispositivos o funciones que no son compatibles con esta versión del producto o cuya interoperabilidad con esta no es óptima. Revise estas limitaciones detenidamente. 
+---
+= Limitaciones conocidas
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Las limitaciones conocidas identifican plataformas, dispositivos o funciones que no son compatibles con esta versión del producto o cuya interoperabilidad con esta no es óptima. Revise estas limitaciones detenidamente.
+
+BlueXP no admite algunas funciones de System Manager:
+
+* Configuración del clúster
++
+Después de establecer la dirección IP de administración y configurar la contraseña de administrador en un clúster de ONTAP en las instalaciones, puede detectar el clúster en BlueXP.
+
+* Control de acceso basado en roles (solo conector)
++
+No se admite el control de acceso basado en roles de System Manager cuando se descubre y gestiona un clúster de ONTAP en las instalaciones mediante un conector. Se le pedirá que introduzca las credenciales de administrador durante el proceso de detección. Estas credenciales se utilizan para todas las acciones realizadas desde System Manager.
+
++
+Con la opción de detección directa, se le pedirá que inicie sesión con sus credenciales de ONTAP cada vez que abra el entorno de trabajo.
+
+* Activación de Cloud Backup
++
+Habilite Cloud Backup en un clúster en las instalaciones directamente desde Cloud Backup. https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["Aprenda cómo empezar"^]
+
+* Actualizaciones bajo demanda
++
+Las actualizaciones bajo demanda del firmware y el software no están disponibles.
+
+* Búsqueda global
+* Configuración de la interfaz de usuario de
+

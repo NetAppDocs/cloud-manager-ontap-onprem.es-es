@@ -1,0 +1,46 @@
+---
+sidebar: sidebar 
+permalink: task-manage-ontap-direct.html 
+keywords: direct discovery, direct, system manager, local, local discovery 
+summary: Si ha detectado el clúster de ONTAP en las instalaciones directamente sin utilizar un conector, puede introducir el entorno de trabajo para gestionar el clúster mediante System Manager. 
+---
+= Gestione clústeres de ONTAP en las instalaciones que se detectaron directamente
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Si ha detectado el clúster de ONTAP en las instalaciones directamente sin utilizar un conector, puede abrir el entorno de trabajo para administrar el clúster mediante System Manager.
+
+.Requisito
+El equipo que está utilizando para acceder a la consola BlueXP debe tener una conexión de red al clúster ONTAP en las instalaciones, de forma similar a cómo proporcionaría conexiones a otros recursos de su red privada.
+
+.Limitaciones
+BlueXP no admite algunas funciones de System Manager.
+
+link:reference-limitations.html["Revise la lista de limitaciones"].
+
+.Pasos
+. En la página lienzo, haga doble clic en el nombre de un entorno de trabajo ONTAP en las instalaciones.
+. Cuando se le solicite, introduzca sus credenciales de ONTAP.
++
+Se le pedirá que inicie sesión con sus credenciales de ONTAP cada vez que abra el entorno de trabajo. Tiene la opción de guardar las credenciales para no tener que introducirlas cada vez. Si utiliza esta opción, las credenciales sólo estarán asociadas al usuario de BlueXP. No se guardan para su uso por parte de nadie más de su cuenta.
+
++
+image:screenshot-credentials.png["Captura de pantalla que muestra la solicitud de introducir el nombre de usuario y la contraseña de un clúster de ONTAP."]
+
+. Utilice System Manager para gestionar ONTAP.
++
+Si necesita ayuda para el uso de System Manager con ONTAP, puede consultar https://docs.netapp.com/us-en/ontap/index.html["Documentación de ONTAP"^] para obtener instrucciones paso a paso. A continuación encontrará algunos enlaces que pueden ayudarle:
+
++
+** https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["Gestión de volúmenes y LUN"^]
+** https://docs.netapp.com/us-en/ontap/network-manage-overview-concept.html["Gestión de redes"^]
+** https://docs.netapp.com/us-en/ontap/concept_dp_overview.html["Protección de datos"^]
+
+
+

@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task-view-cluster-info.html 
+keywords: software contract, hardware contract, contracts, expiration date, expired, software contract 
+summary: Puede utilizar la cartera digital para ver detalles del clúster y el estado del contrato de hardware y software. 
+---
+= Ver información del clúster y detalles de los contratos
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Puede utilizar el _Digital Wallet_ para ver detalles del clúster y el estado del contrato de hardware y software.
+
+.Pasos
+. En el menú de navegación de BlueXP, seleccione *Gobierno > cartera digital*.
+. En *cartera digital*, haga clic en la ficha *ONTAP* en las instalaciones.
++
+Las fechas de vencimiento del contrato de software y del contrato de hardware aparecen en la línea de cada clúster.
+
+. Si el contrato se acerca a la fecha de caducidad o ha caducado, puede hacer clic en el icono de chat situado en la parte inferior derecha de BlueXP para solicitar una extensión al contrato.
+. Para los clústeres que desea conocer más detalles, haga clic en image:button_down_caret.png["Un icono de signo de intercalación descendente"] para expandir la información del clúster.
++
+image:screenshot_digital_wallet_license_info.png["Una captura de pantalla de cómo ampliar los detalles del clúster para poder ver la información de la licencia del clúster."]
+
+

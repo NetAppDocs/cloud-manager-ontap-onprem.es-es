@@ -1,0 +1,141 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, on-prem' 
+summary: Descubra las novedades de la gestión de clústeres de ONTAP en las instalaciones de BlueXP. 
+---
+= Novedades de los clústeres ONTAP en las instalaciones
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Descubra las novedades de la gestión de clústeres de ONTAP en las instalaciones de BlueXP (anteriormente, Cloud Manager).
+
+
+
+== 1 de enero de 2023
+
+
+
+=== Guarde las credenciales de ONTAP
+
+Al abrir un entorno de trabajo de ONTAP en las instalaciones que se detectó directamente sin usar un conector, ahora tiene la opción de guardar sus credenciales de clúster de ONTAP para no tener que introducirlas cada vez que abre el entorno de trabajo.
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-direct.html["Obtenga más información sobre esta opción."]
+
+
+
+== 4 de diciembre de 2022
+
+Los siguientes cambios se introdujeron con la versión 3.9.24 del conector.
+
+
+
+=== Nueva forma de detectar clústeres de ONTAP en las instalaciones
+
+Ahora puede descubrir directamente sus clústeres de ONTAP en las instalaciones sin utilizar un conector. Esta opción solo permite la gestión del clúster mediante System Manager. No puede habilitar ningún servicio de datos BlueXP en este tipo de entorno de trabajo.
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["Obtenga más información sobre esta opción de detección y gestión"].
+
+
+
+=== Volúmenes de FlexGroup
+
+Para los clústeres de ONTAP en las instalaciones que se detectan a través de un conector, la vista estándar de BlueXP ahora muestra los volúmenes de FlexGroup que se crearon mediante System Manager o la CLI de ONTAP. También puede gestionar estos volúmenes clonándolos, editando su configuración, eliminarlos y mucho más.
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-flexgroup-volumes.png["Captura de pantalla que muestra un volumen FlexGroup en la página Volumes de un clúster ONTAP en las instalaciones."]
+
+BlueXP no admite la creación de volúmenes de FlexGroup. Tendrá que seguir usando System Manager o la interfaz de línea de comandos para crear volúmenes de FlexGroup.
+
+
+
+== 18 de septiembre de 2022
+
+Los siguientes cambios se introdujeron con la versión 3.9.22 del conector.
+
+
+
+=== Nueva página Overview
+
+Hemos introducido una nueva página general para proporcionar detalles clave sobre un clúster de ONTAP en las instalaciones. Por ejemplo, ahora puede ver detalles como la eficiencia del almacenamiento, la distribución de la capacidad y la información del sistema.
+
+También puede ver detalles sobre la integración con otros servicios cloud de NetApp que permiten la organización en niveles de datos, la replicación de datos y los backups.
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-overview.png["Captura de pantalla que muestra la página Descripción general de un clúster ONTAP en las instalaciones."]
+
+
+
+=== Página volúmenes rediseñados
+
+Hemos rediseñado la página Volumes para proporcionar un resumen de los volúmenes en un clúster. El resumen muestra el número total de volúmenes, la cantidad de capacidad aprovisionada, la capacidad utilizada y la capacidad reservada, y la cantidad de datos organizados en niveles.
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-volumes.png["Captura de pantalla que muestra la página Volumes de un clúster de ONTAP en las instalaciones."]
+
+
+
+== 7 de junio de 2022
+
+Se ha introducido el siguiente cambio con la versión 3.9.19 del conector.
+
+
+
+=== Nueva vista avanzada
+
+Si necesita realizar una gestión avanzada de un clúster local de ONTAP, puede hacerlo mediante System Manager de ONTAP, que es una interfaz de gestión proporcionada con un sistema ONTAP. Hemos incluido la interfaz de System Manager directamente dentro de Cloud Manager para que no tenga que salir de Cloud Manager para disfrutar de una gestión avanzada.
+
+Esta vista avanzada está disponible como una vista previa con clústeres de ONTAP en las instalaciones que ejecutan 9.10.0 o posterior. Tenemos pensado perfeccionar esta experiencia y añadir mejoras en próximos lanzamientos. Envíenos sus comentarios mediante el chat en el producto.
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-administer-advanced-view.html["Obtenga más información acerca de la vista avanzada"].
+
+
+
+== 27 de febrero de 2022
+
+
+
+=== Hay una ficha "On-Prem ONTAP" disponible en la cartera digital
+
+Ahora puede ver un inventario de sus clústeres de ONTAP en sus instalaciones junto con las fechas de vencimiento del hardware y los contratos de servicio. También hay más detalles disponibles sobre los clústeres.
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html#viewing-cluster-information-and-contract-details["Vea cómo se ve esta información importante sobre el clúster local"]. Debe tener una cuenta del sitio de soporte de NetApp (NSS) para los clústeres, y las credenciales de NSS deben adjuntarse a su cuenta de Cloud Manager.
+
+
+
+== 11 de enero de 2022
+
+
+
+=== Las etiquetas que agrega a los volúmenes en clústeres de ONTAP en las instalaciones se pueden utilizar con el servicio de etiquetado
+
+Las etiquetas que agregue a un volumen ahora están asociadas con la función de etiquetado del servicio Plantillas de aplicación, que puede ayudarle a organizar y simplificar la administración de sus recursos.
+
+
+
+== 28 de noviembre de 2021
+
+
+
+=== Se ha simplificado el asistente para crear volúmenes para clústeres de ONTAP en las instalaciones
+
+Hemos rediseñado el asistente de creación de volúmenes para facilitar su uso y ahora puede elegir una política de exportación personalizada.
+
+
+
+== 8 de marzo de 2021
+
+
+
+=== Información del clúster de ONTAP en las instalaciones disponible en el servicio Active IQ
+
+* Cuando Active IQ muestra la lista de sus clústeres en las instalaciones (según su cuenta de NSS), puede hacer clic en un botón a. link:task-discovering-ontap.html#discovering-clusters-from-the-discovery-page["detecte el clúster"^] Y añádalo al lienzo de Cloud Manager. Esto facilita la gestión de todos los sistemas de almacenamiento desde Cloud Manager.
+* Cuando Active IQ determina que uno o más clústeres requieren actualizaciones de firmware, puede hacer clic en un botón a. link:task-managing-ontap.html#downloading-new-disk-and-shelf-firmware["Descargue el libro de estrategia de Ansible y actualice el firmware del clúster"^].
+* Un nuevo link:task-managing-ontap.html#viewing-on-prem-workloads-that-are-candidates-for-the-cloud["Pestaña Cloud-Ready Workloads"^] Proporciona una lista de las cargas de trabajo o los volúmenes que hemos identificado como ideales para moverlos al cloud desde sus clústeres de ONTAP en las instalaciones. Mover algunos de estos volúmenes podría reducir costes y mejorar el rendimiento y la resiliencia.
++
+Consulte link:https://www.netapp.com/knowledge-center/what-is-lift-and-shift["¿Qué es la función de rehospedaje?"]
+
+
