@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cloud-manager-ontap-onprem | NetApp Documentation</title>
+    <atom:link href="https://docs.netapp.com/es-es/cloud-manager-ontap-onprem/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://docs.netapp.com/es-es/cloud-manager-ontap-onprem</link>
+    <description>The latest updates from NetApp Documentation</description>
+    <language>es-es</language>
+    <ttl>60</ttl>
+    <pubDate>Mon, 20 Feb 2023 16:17:03 +0000</pubDate>
+    <lastBuildDate>Mon, 20 Feb 2023 16:17:03 +0000</lastBuildDate>
+    
+    
+    
+    <item>
+      <title>Novedades de los clústeres ONTAP en las instalaciones (20 Feb 2023)</title>
+      <pubDate>Mon, 20 Feb 2023 16:14:45 +0000</pubDate>
+      <link>https://docs.netapp.com/es-es/cloud-manager-ontap-onprem/whats-new.html?time=1676909685</link>
+      <guid isPermaLink="false">Mon, 20 Feb 2023 16:14:45 +0000</guid>
+      <description><![CDATA[ Descubra las novedades de la gestión de clústeres de ONTAP en las instalaciones de BlueXP. ]]></description>
+    </item>
+    
+    
+  </channel>
+</rss>
