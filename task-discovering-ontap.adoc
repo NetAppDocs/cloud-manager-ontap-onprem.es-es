@@ -85,7 +85,7 @@ La política de firewall "mgmt" predeterminada permite el acceso HTTPS entrante 
 .Pasos
 . En el menú de navegación, selecciona *almacenamiento > Canvas*.
 . En la página Canvas, haga clic en *Agregar entorno de trabajo* y seleccione *en las instalaciones*.
-. Seleccione *On-local ONTAP*.
+. Junto a On-local ONTAP, seleccione *Discover*.
 . Si se le solicita, cree un conector.
 +
 Consulte los requisitos anteriores para obtener más información.
@@ -132,7 +132,7 @@ La política de firewall "mgmt" predeterminada permite el acceso HTTPS entrante 
 .Pasos
 . En el menú de navegación, selecciona *almacenamiento > Canvas*.
 . En la página Canvas, haga clic en *Agregar entorno de trabajo* y seleccione *en las instalaciones*.
-. Seleccione *local on-local ONTAP (directo)*.
+. Junto a local On-local ONTAP (directo), seleccione *Discover*.
 . Introduzca la dirección IP de administración del clúster, la contraseña de la cuenta de usuario administrador y haga clic en *Agregar*.
 
 
